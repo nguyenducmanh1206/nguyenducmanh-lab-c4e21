@@ -1,0 +1,101 @@
+h4 {
+    color: teal;   
+}
+
+#last_title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.bg-blue {
+    background-color: beige;
+}
+
+.text-decor {
+    text-decoration: underline;
+}
+
+#image {
+    width: 200px;
+    height:300px;
+    object-fit: cover;
+}
+
+#container {
+    background-image: url(http://vnphoto.vn/wp-content/uploads/2017/07/tong-hop-nhung-hinh-anh-dep-thang-7-9.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-wgite {
+    color : white;
+}
+
+.h-20p {
+    height: 100px;
+}
+
+.w-40p {
+    width: 200px;
+}
+
+
+.h-10 {
+    width: 200px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+body, html{
+    height: 100%;
+}
+
+/* html {
+    height: 100%;
+} */
+.bg-green {
+    background-color: green;
+}   
+
+.mb-10p {
+    margin-bottom: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px; */
+}
+
+.m-20p {
+    margin: 20px;;
+}
+
+.m-c {
+    margin: 10px 5px 20px 7px;
+}
+
+.pt-16p {
+    padding-top: 16px;
+}
+
+.pl-8p {
+    padding-left: 8px;
+}
+
+.b-c {
+    border-color: aquamarine;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 100%;
+}
+/* .b-c {
+    border :2px #cccccc solid;
+    border-radius: 10px;
+} */
