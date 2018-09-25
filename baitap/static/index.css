@@ -1,0 +1,43 @@
+#new_post {
+        text-decoration: none;   
+        color: teal;
+        font-size: 5.1rem;
+
+}
+#item {
+        background-image: url(https://i.ytimg.com/vi/xI5v_vvVmQk/maxresdefault.jpg);
+        height:500px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+.item {
+        background-image: url(http://photoservice.gamesao.vn/Resources/Upload/Images/Editor/38/Lien-Minh-Huyen-Thoai/Gun-Goddess-Miss-Fortune-Skin/Gun-Goddess-Miss-Fortune.jpg);
+        height:500px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-size: 2.0rem;
+        padding-left: 200px;
+        padding-top: 16px;
+        border-color: aquamarine;
+        border-width: 2px;
+        border-style: dashed;     
+        
+}
+.team {
+    font-size: 4.0rem;  
+    padding-left: 200px;
+    padding-top: 16px;
+
+}
+#new_item {
+    color: brown;
+    size: 3.0rem;
+}
+#new_iteam {
+    color: brown;
+    size: 3.0rem;
+    background-image: url(http://photoservice.gamesao.vn/Resources/Upload/Images/Editor/38/Lien-Minh-Huyen-Thoai/Gun-Goddess-Miss-Fortune-Skin/Gun-Goddess-Miss-Fortune.jpg);
+    
+}

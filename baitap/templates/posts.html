@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/baitap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="item">
+            <a id="new_post" href="{{url_for ('new') }}">add new post ></a>
+
+    </div>
+    
+
+    <div class="m-c pl-100p pt-20p size">   
+        {% for post in posts %}
+        <div class=" m-c ">
+                <a href="/post/{{ post.id }}">
+                    <span class="title">{{post.title}}</span>
+            </a>
+            
+            <span class="author">by {{post.author}}</span>
+
+        </div>
+   
+        <!-- <p>{{post.content}}</p> -->
+        {% endfor %}
+        
+
+    </div>
+    
+
+    
+    
+</body>
+</html>
